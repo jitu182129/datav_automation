@@ -1,0 +1,9 @@
+Retries and Test Flakiness
+===============================
+
+1) Passes  -No Entery
+2) Failed  -Retry _Failed
+3)Failed - Retry - Passed = Fleky Testes
+
+#Give failing testes 3 retry attempts
+npx playwright test --Retries=3

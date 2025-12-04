@@ -1,0 +1,25 @@
+{
+  "name": "playwrightjs",
+  "version": "1.0.0",
+  "description": "Playwright automation framework with Allure reporting",
+  "main": "index.js",
+  "scripts": {
+    "clean:allure": "rmdir /s /q allure-results && rmdir /s /q allure-report",
+    "test": "npm run clean:allure && npx playwright test",
+    "allure:generate": "allure generate allure-results -o allure-report --clean",
+    "allure:open": "allure open allure-report",
+    "test:with-report": "npm run test && npm run allure:report && npm run allure:open"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.56.0",
+    "@types/node": "^24.5.2",
+    "allure-playwright": "^3.4.1",
+    "rimraf": "^6.0.1"
+  },
+  "dependencies": {
+    "log4js": "^6.9.1"
+  }
+}

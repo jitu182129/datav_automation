@@ -1,0 +1,39 @@
+name: Playwright CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        browser: [chromium, firefox, webkit]
+
+    steps:
+      # Step 1: Checkout the repository
+      - uses: actions/checkout@v4
+
+      # Step 2: Setup Node.js
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 20
+
+      # Step 3: Install dependencies
+      - run: npm install
+
+      # Step 4: Install Playwright browsers
+      - run: npx playwright install
+
+      # Step 5: Run Playwright tests for each browser
+      - run: npx playwright test --project=chromium --reporter=html
+
+      # Step 6: Upload HTML report as artifact
+      - uses: actions/upload-artifact@v3
+        with:
+          name: playwright-report
+          path: playwright-report

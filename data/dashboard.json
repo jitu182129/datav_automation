@@ -1,0 +1,6 @@
+{
+  "dashboardName": "Automation Dashboard: ",
+  "dashboardDescription": "For automation testing",
+  "success_toast_message_for_create_dashboard":"Dashboard Created Successfully",
+  "success_toast_message_for_delete_dashboard":"Successfully Deleted"
+}

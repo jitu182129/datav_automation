@@ -1,0 +1,2 @@
+Success message:  Dashboard Created Successfully
+Name is:  //*[text()='Automation Dashboard: 7558']/..//button[@title='Delete']

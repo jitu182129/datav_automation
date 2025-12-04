@@ -1,0 +1,36 @@
+Assertions
+====================
+
+******Hard Assertions******
+---------------------------
+
+1) expect(page).toHaveURL()       => Page has toHaveURL
+   expect(page).not.toHaveURL()  => for reverse
+
+2) expect(page).toHaveTitle()     =>Page has Title
+
+3) expect(locator).toBeVisible()   => Element is Visible
+
+4) expect(locator).toBeEnabled()  => Control is enabled
+   expect(locator).toBeDisabled() => Element is disabled
+
+5) expect(locator).toBeChecked()  => Radio/Checkbox is checked
+
+6) expect(locator).toHaveAttribute() => Element has Attribute
+
+7) expect(locator).toHaveText() =>Element matches text(tag text)
+
+8) expect(locator).toContainText() =>Element contains text
+
+9) expect(locator).toHaveValue(value) => Input has a value
+
+10) expect(locator).toHaveCount()  => List of elements has given length
+    expect(locator).not.toHaveCount()
+
+******Soft Assertions******
+---------------------------
+1) expect.soft(page).toHaveURL()
+
+2)expect.soft(page).toHaveTitle()
+
+3)expect.soft(locator).toBeVisible()

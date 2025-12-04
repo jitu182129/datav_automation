@@ -1,0 +1,2 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"broken","Fri Oct 24 17:08:45 IST 2025","Fri Oct 24 17:09:16 IST 2025","30688","chromium","LoginPageTest.spec.js","","","","User can login successfully",""

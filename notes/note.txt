@@ -1,0 +1,28 @@
+npx playwright test                                      ==>run all tests on all browser on headless mode
+npx playwright test LoginPageTest.spec.js                ==> Runs a specific test file
+npx playwright test LoginPageTest.spec.js --project=chromium ==> Runs on specific browser
+
+npx playwright test LoginPageTest.spec.js --project=chromium --headed ==> Runs by opening the browser
+
+npx playwright test LoginPageTest.spec.js --project=chromium --headed --debug ==> Runs by debuging 
+
+//To Open Trace Viewer
+npx playwright show-trace path of trace file location
+
+==========================================
+
+# Run tests (dev by default)
+npx playwright test
+
+# Run staging
+NODE_ENV=staging npx playwright test
+
+# View HTML report
+npx playwright show-report
+
+===================================
+# Run tests locally only in Chromium
+npx playwright test --project=chromium
+
+# View HTML report
+npx playwright show-report

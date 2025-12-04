@@ -1,0 +1,261 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - generic [ref=e4]:
+    - complementary [ref=e5]:
+      - generic [ref=e6]:
+        - link "logo" [ref=e8] [cursor=pointer]:
+          - /url: /dashboards
+          - img "logo" [ref=e9]
+        - navigation [ref=e10]:
+          - link [ref=e12] [cursor=pointer]:
+            - /url: /dashboards
+            - button [ref=e14]:
+              - img [ref=e15]
+          - link [ref=e21] [cursor=pointer]:
+            - /url: /visualizations
+            - button [ref=e23]:
+              - img [ref=e24]
+          - link [ref=e28] [cursor=pointer]:
+            - /url: /alerts
+            - button [ref=e30]:
+              - img [ref=e31]
+          - link [ref=e37] [cursor=pointer]:
+            - /url: /dataexplorer/connectors
+            - button [ref=e39]:
+              - img [ref=e40]
+          - link [ref=e45] [cursor=pointer]:
+            - /url: /correlation
+            - button [ref=e47]:
+              - img [ref=e48]
+          - button [ref=e53] [cursor=pointer]:
+            - button [ref=e55]:
+              - img [ref=e56]
+        - menubar [ref=e60]:
+          - menuitem "DS" [ref=e61] [cursor=pointer]:
+            - generic [ref=e63]: DS
+    - generic [ref=e65]:
+      - heading "Dashboards" [level=3] [ref=e68]
+      - generic [ref=e71]:
+        - generic [ref=e72]:
+          - generic [ref=e74]:
+            - textbox "Search here..."
+            - button [ref=e75] [cursor=pointer]:
+              - img [ref=e76]
+          - button "Dashboard" [active] [ref=e79] [cursor=pointer]:
+            - button "Dashboard" [ref=e80]:
+              - img [ref=e81]
+              - text: Dashboard
+          - button [ref=e82] [cursor=pointer]:
+            - button "Apply Filter" [ref=e83]:
+              - img [ref=e84]
+          - combobox [ref=e86] [cursor=pointer]:
+            - img [ref=e87]
+            - text: View
+        - table [ref=e90]:
+          - rowgroup [ref=e91]:
+            - row "Name Description Connectors Charts Actions" [ref=e92]:
+              - cell "Name" [ref=e93]:
+                - generic [ref=e95]: Name
+              - cell "Description" [ref=e96]:
+                - generic [ref=e98]: Description
+              - cell "Connectors" [ref=e99]:
+                - generic [ref=e101]: Connectors
+              - cell "Charts" [ref=e102]:
+                - generic [ref=e104]: Charts
+              - cell "Actions" [ref=e105]:
+                - generic [ref=e107]: Actions
+          - rowgroup [ref=e108]:
+            - 'row "Automation Dashboard: 4704 For automation testing 0" [ref=e109] [cursor=pointer]':
+              - 'cell "Automation Dashboard: 4704" [ref=e110]'
+              - cell "For automation testing" [ref=e111]
+              - cell [ref=e112]
+              - cell "0" [ref=e113]
+              - cell [ref=e114]:
+                - generic [ref=e115]:
+                  - button [ref=e116]:
+                    - button "Delete" [ref=e117]:
+                      - img [ref=e118]
+                  - button [ref=e121]:
+                    - button "Edit Dashboard" [ref=e122]:
+                      - img [ref=e123]
+            - row "For testing test Checking-corellation-ag corrtestdiff Data-Set-01 non critical Sales Data Sales Data 2 9" [ref=e126] [cursor=pointer]:
+              - cell "For testing" [ref=e127]
+              - cell "test" [ref=e128]
+              - cell "Checking-corellation-ag corrtestdiff Data-Set-01 non critical Sales Data Sales Data 2" [ref=e129]:
+                - generic [ref=e130]:
+                  - generic [ref=e132]: Checking-corellation-ag
+                  - generic [ref=e134]: corrtestdiff
+                  - generic [ref=e136]: Data-Set-01
+                  - generic [ref=e138]: non critical
+                  - generic [ref=e140]: Sales Data
+                  - generic [ref=e142]: Sales Data 2
+              - cell "9" [ref=e143]
+              - cell [ref=e144]:
+                - generic [ref=e145]:
+                  - button [ref=e146]:
+                    - button "Delete" [ref=e147]:
+                      - img [ref=e148]
+                  - button [ref=e151]:
+                    - button "Edit Dashboard" [ref=e152]:
+                      - img [ref=e153]
+            - row "New Dashboard For Testing Data-Set-01 Data-Set-02 Spotlight_new 14" [ref=e156] [cursor=pointer]:
+              - cell "New Dashboard" [ref=e157]
+              - cell "For Testing" [ref=e158]
+              - cell "Data-Set-01 Data-Set-02 Spotlight_new" [ref=e159]:
+                - generic [ref=e160]:
+                  - generic [ref=e162]: Data-Set-01
+                  - generic [ref=e164]: Data-Set-02
+                  - generic [ref=e166]: Spotlight_new
+              - cell "14" [ref=e167]
+              - cell [ref=e168]:
+                - generic [ref=e169]:
+                  - button [ref=e170]:
+                    - button "Delete" [ref=e171]:
+                      - img [ref=e172]
+                  - button [ref=e175]:
+                    - button "Edit Dashboard" [ref=e176]:
+                      - img [ref=e177]
+            - row "check add client_data real_estate Data-Set-01 5" [ref=e180] [cursor=pointer]:
+              - cell "check" [ref=e181]
+              - cell "add" [ref=e182]
+              - cell "client_data real_estate Data-Set-01" [ref=e183]:
+                - generic [ref=e184]:
+                  - generic [ref=e186]: client_data
+                  - generic [ref=e188]: real_estate
+                  - generic [ref=e190]: Data-Set-01
+              - cell "5" [ref=e191]
+              - cell [ref=e192]:
+                - generic [ref=e193]:
+                  - button [ref=e194]:
+                    - button "Delete" [ref=e195]:
+                      - img [ref=e196]
+                  - button [ref=e199]:
+                    - button "Edit Dashboard" [ref=e200]:
+                      - img [ref=e201]
+            - row "testing Purpose Data-Set-01 non critical corrtestdiff 6" [ref=e204] [cursor=pointer]:
+              - cell "testing" [ref=e205]
+              - cell "Purpose" [ref=e206]
+              - cell "Data-Set-01 non critical corrtestdiff" [ref=e207]:
+                - generic [ref=e208]:
+                  - generic [ref=e210]: Data-Set-01
+                  - generic [ref=e212]: non critical
+                  - generic [ref=e214]: corrtestdiff
+              - cell "6" [ref=e215]
+              - cell [ref=e216]:
+                - generic [ref=e217]:
+                  - button [ref=e218]:
+                    - button "Delete" [ref=e219]:
+                      - img [ref=e220]
+                  - button [ref=e223]:
+                    - button "Edit Dashboard" [ref=e224]:
+                      - img [ref=e225]
+            - row "slider dddddd trtrtrtrt Checking-corellation-ag Data-Set-02 non critical Data-Set-01 5" [ref=e228] [cursor=pointer]:
+              - cell "slider" [ref=e229]
+              - cell "dddddd" [ref=e230]
+              - cell "trtrtrtrt Checking-corellation-ag Data-Set-02 non critical Data-Set-01" [ref=e231]:
+                - generic [ref=e232]:
+                  - generic [ref=e234]: trtrtrtrt
+                  - generic [ref=e236]: Checking-corellation-ag
+                  - generic [ref=e238]: Data-Set-02
+                  - generic [ref=e240]: non critical
+                  - generic [ref=e242]: Data-Set-01
+              - cell "5" [ref=e243]
+              - cell [ref=e244]:
+                - generic [ref=e245]:
+                  - button [ref=e246]:
+                    - button "Delete" [ref=e247]:
+                      - img [ref=e248]
+                  - button [ref=e251]:
+                    - button "Edit Dashboard" [ref=e252]:
+                      - img [ref=e253]
+            - row "New Dash Testing Data-Set-01 non critical lar Checking-corellation-ag trtrtrtrt 8" [ref=e256] [cursor=pointer]:
+              - cell "New Dash" [ref=e257]
+              - cell "Testing" [ref=e258]
+              - cell "Data-Set-01 non critical lar Checking-corellation-ag trtrtrtrt" [ref=e259]:
+                - generic [ref=e260]:
+                  - generic [ref=e262]: Data-Set-01
+                  - generic [ref=e264]: non critical
+                  - generic [ref=e266]: lar
+                  - generic [ref=e268]: Checking-corellation-ag
+                  - generic [ref=e270]: trtrtrtrt
+              - cell "8" [ref=e271]
+              - cell [ref=e272]:
+                - generic [ref=e273]:
+                  - button [ref=e274]:
+                    - button "Delete" [ref=e275]:
+                      - img [ref=e276]
+                  - button [ref=e279]:
+                    - button "Edit Dashboard" [ref=e280]:
+                      - img [ref=e281]
+            - row "checking test Data-Set-01 trtrtrtrt Data-Set-02 4" [ref=e284] [cursor=pointer]:
+              - cell "checking" [ref=e285]
+              - cell "test" [ref=e286]
+              - cell "Data-Set-01 trtrtrtrt Data-Set-02" [ref=e287]:
+                - generic [ref=e288]:
+                  - generic [ref=e290]: Data-Set-01
+                  - generic [ref=e292]: trtrtrtrt
+                  - generic [ref=e294]: Data-Set-02
+              - cell "4" [ref=e295]
+              - cell [ref=e296]:
+                - generic [ref=e297]:
+                  - button [ref=e298]:
+                    - button "Delete" [ref=e299]:
+                      - img [ref=e300]
+                  - button [ref=e303]:
+                    - button "Edit Dashboard" [ref=e304]:
+                      - img [ref=e305]
+            - row "legacy_metric testing corrtestdiff 3" [ref=e308] [cursor=pointer]:
+              - cell "legacy_metric" [ref=e309]
+              - cell "testing" [ref=e310]
+              - cell "corrtestdiff" [ref=e311]:
+                - generic [ref=e314]: corrtestdiff
+              - cell "3" [ref=e315]
+              - cell [ref=e316]:
+                - generic [ref=e317]:
+                  - button [ref=e318]:
+                    - button "Delete" [ref=e319]:
+                      - img [ref=e320]
+                  - button [ref=e323]:
+                    - button "Edit Dashboard" [ref=e324]:
+                      - img [ref=e325]
+            - row "checkkkk che Spotlight_new 1" [ref=e328] [cursor=pointer]:
+              - cell "checkkkk" [ref=e329]
+              - cell "che" [ref=e330]
+              - cell "Spotlight_new" [ref=e331]:
+                - generic [ref=e334]: Spotlight_new
+              - cell "1" [ref=e335]
+              - cell [ref=e336]:
+                - generic [ref=e337]:
+                  - button [ref=e338]:
+                    - button "Delete" [ref=e339]:
+                      - img [ref=e340]
+                  - button [ref=e343]:
+                    - button "Edit Dashboard" [ref=e344]:
+                      - img [ref=e345]
+        - generic [ref=e349]:
+          - generic [ref=e350]: Showing 10 of 19 records
+          - generic [ref=e351]:
+            - generic [ref=e352]:
+              - paragraph [ref=e353]: Rows per page
+              - combobox [ref=e354] [cursor=pointer]:
+                - generic: "10"
+                - img [ref=e355]
+            - generic [ref=e357]: Page 1 of 2
+            - generic [ref=e358]:
+              - button "Go to first page" [disabled] [ref=e359]:
+                - generic [ref=e360]: Go to first page
+                - img [ref=e361]
+              - button "Go to previous page" [disabled] [ref=e364]:
+                - generic [ref=e365]: Go to previous page
+                - img [ref=e366]
+              - button "Go to next page" [ref=e368] [cursor=pointer]:
+                - generic [ref=e369]: Go to next page
+                - img [ref=e370]
+              - button "Go to last page" [ref=e372] [cursor=pointer]:
+                - generic [ref=e373]: Go to last page
+                - img [ref=e374]
+  - region "Notifications (F8)":
+    - list
+```
