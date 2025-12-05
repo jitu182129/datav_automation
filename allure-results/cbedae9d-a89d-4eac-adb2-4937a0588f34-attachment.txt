@@ -1,0 +1,6 @@
+[2025-12-05T13:27:26.386] [INFO] playwright-logger - Lunching the browser..
+[2025-12-05T13:27:27.024] [INFO] playwright-logger - Logging into application...
+[2025-12-05T13:27:31.808] [INFO] playwright-logger - Successfully logged into application.
+[2025-12-05T13:27:31.809] [INFO] playwright-logger - Creating the dashboard...
+Success message:  Dashboard Created Successfully
+[2025-12-05T13:27:32.824] [INFO] playwright-logger - Successfully created the dashboard and verified.

@@ -1,0 +1,7 @@
+Success message:  Dashboard Created Successfully
+Name is:  Promise {
+  "//*[text()='Automation Dashboard: 6678']/..//button[@title='Delete']",
+  [Symbol(async_id_symbol)]: 31438,
+  [Symbol(trigger_async_id_symbol)]: 27343,
+  [Symbol(kResourceStore)]: undefined
+}
